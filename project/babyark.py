@@ -62,7 +62,7 @@ def random_from_favorites_popup():
 
     tk.Label(popup, text="계속 고민된다면, 내가 결정해줄게!!!", font=("Helvetica", 13), bg="#DDEEFF").pack(pady=10)
 
-    # 최종 식당 결정정 버튼
+    # 최종 식당 결정 버튼
     pick_btn = tk.Button(popup, text="오늘 밥약은?", font=("Helvetica", 14, "bold"),
                          bg="#3399FF", fg="white", width=12, height=2, relief="raised")
     pick_btn.pack(pady=10)
